@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DUA — Desenho Universal para Aprendizagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip link para acessibilidade -->
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="brand">
+        <h1>DUA — Desenho Universal para Aprendizagem</h1>
+        <p class="tagline">Planejar aulas inclusivas que funcionem para todos os estudantes</p>
+      </div>
+
+      <!-- Foto de perfil no canto direito -->
+      <div class="profile">
+        <img src="foto-perfil.jpg" alt="Foto do Professor Josué Luiz" class="profile-img">
+        <p class="prof-name">Prof. Josué Luiz do Carmo</p>
+      </div>
+    </div>
+
+    <div class="header-controls">
+      <button id="contrastToggle" aria-pressed="false">Alto Contraste</button>
+      <a class="portal-link" href="https://josueluiz.github.io/portal-de-projetos/" title="Voltar ao Portal de Projetos">⬅ Portal de Projetos</a>
+    </div>
+  </header>
+
+  <nav class="hero" aria-label="Introdução">
+    <div class="hero-inner">
+      <h2>O que é o DUA?</h2>
+      <p>O Desenho Universal para Aprendizagem (DUA) é um conjunto de princípios para planejar e ministrar ensino que ofereça múltiplas formas de engajamento, representação e expressão — permitindo que todos os estudantes aprendam melhor.</p>
+    </div>
+  </nav>
+
+  <main id="main" class="main-content" role="main">
+    <!-- Princípios -->
+    <section class="principios" aria-labelledby="princ-title">
+      <h3 id="princ-title">Princípios do DUA</h3>
+      <div class="grid-3">
+        <article class="principio card" aria-labelledby="p1">
+          <h4 id="p1">1. Múltiplas formas de <br> Engajamento</h4>
+          <p>Ofereça opções para motivar e manter o interesse do estudante — escolhas, desafios ajustáveis, e apoio emocional.</p>
+        </article>
+
+        <article class="principio card" aria-labelledby="p2">
+          <h4 id="p2">2. Múltiplas formas de <br> Representação</h4>
+          <p>Apresente a informação de maneiras diferentes: texto, imagem, áudio, demonstração prática, modelos visuais.</p>
+        </article>
+
+        <article class="principio card" aria-labelledby="p3">
+          <h4 id="p3">3. Múltiplas formas de <br> Ação e Expressão</h4>
+          <p>Permita que os alunos demonstrem o aprendizado de formas diversas: projetos, vídeos, mapas, apresentações, avaliações orais.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Exemplos práticos -->
+    <section class="exemplos" aria-labelledby="ex-title">
+      <h3 id="ex-title">Exemplos práticos na sala de aula</h3>
+
+      <div class="cards">
+        <div class="card exemplo">
+          <h4>Projetos práticos</h4>
+          <p>Construção de maquetes, animatronics e pontes — alunos escolhem materiais e formato de apresentação (vídeo, pôster, demonstração).</p>
+        </div>
+
+        <div class="card exemplo">
+          <h4>Materiais múltiplos</h4>
+          <p>Disponibilize textos, slides com imagens, gravação em áudio da mesma explicação e listas de termos-chave.</p>
+        </div>
+
+        <div class="card exemplo">
+          <h4>Avaliação flexível</h4>
+          <p>Permita apresentação em vídeo, relatório escrito, ou entrevista oral para avaliação do mesmo conteúdo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de vídeos (YouTube) -->
+    <section class="videos" aria-labelledby="vid-title">
+      <h3 id="vid-title">Vídeos e registros</h3>
+
+      <div class="cards videos-grid">
+        <!-- substitua SEU_VIDEO_ID pelo ID do YouTube -->
+        <div class="card video-card">
+          <iframe class="video-card-iframe"
+                  src="https://www.youtube.com/embed/SEU_VIDEO_ID"
+                  title="DUA - Introdução"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+          <p>Introdução ao DUA — palestra curta.</p>
+        </div>
+
+        <div class="card video-card">
+          <iframe class="video-card-iframe"
+                  src="https://www.youtube.com/embed/SEU_OUTRO_VIDEO_ID"
+                  title="Exemplo prático em sala"
+                  frameborder="0"
+                  allowfullscreen>
+          </iframe>
+          <p>Registro de atividade em sala aplicando DUA.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recursos e materiais -->
+    <section class="recursos" aria-labelledby="rec-title">
+      <h3 id="rec-title">Recursos úteis</h3>
+
+      <ul class="resource-list">
+        <li><a href="#" target="_blank" rel="noopener">Guia prático do DUA — PDF (substituir link)</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Modelos de atividades inclusivas</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Ferramentas digitais de apoio (text-to-speech, legendas)</a></li>
+      </ul>
+    </section>
+
+    <!-- Checklist rápido para planejar uma aula DUA -->
+    <section class="checklist" aria-labelledby="chk-title">
+      <h3 id="chk-title">Checklist rápido (planejamento de aula)</h3>
+      <ol>
+        <li>Defina objetivos claros e observáveis.</li>
+        <li>Ofereça ao menos duas formas de apresentação do conteúdo.</li>
+        <li>Inclua opções de engajamento: escolha, desafios adaptáveis, feedback rápido.</li>
+        <li>Planeje formas alternativas de expressão (texto, vídeo, protótipo).</li>
+        <li>Verifique acessibilidade: contraste, legendas, descrição alternativa.</li>
+      </ol>
+    </section>
+
+    <!-- Contato / Sobre (curto) -->
+    <section class="contato" aria-labelledby="cont-title">
+      <h3 id="cont-title">Contato</h3>
+      <p>Professor Josué Luiz do Carmo — <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+      <p><a class="botao-voltar" href="https://josueluiz.github.io/portal-de-projetos/">⬅ Voltar ao Portal de Projetos</a></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>DUA — Desenho Universal para Aprendizagem | Projeto educativo — Prof. Josué Luiz do Carmo</p>
+
+      <!-- contador CountAPI -->
+      <div class="contador" aria-live="polite">
+        👀 <span id="visitas">0</span> visitas
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Toggle alto contraste
+    const contrastBtn = document.getElementById('contrastToggle');
+    contrastBtn.addEventListener('click', () => {
+      const pressed = contrastBtn.getAttribute('aria-pressed') === 'true';
+      contrastBtn.setAttribute('aria-pressed', String(!pressed));
+      document.documentElement.classList.toggle('high-contrast');
+    });
+
+    // CountAPI — substitua 'josueluiz-dua' se quiser outro ID
+    const contadorId = 'josueluiz-dua';
+    fetch(https://api.countapi.xyz/hit/${contadorId}/visitas)
+      .then(r => r.json())
+      .then(data => {
+        const v = data.value || 0;
+        document.getElementById('visitas').innerText = v;
+      })
+      .catch(() => {
+        // fallback: não quebrar se countapi falhar
+        document.getElementById('visitas').innerText = '—';
+      });
+
+    // Prefers-reduced-motion: remove animações se usuário preferir
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('reduced-motion');
+    }
+  </script>
+</body>
+</html>
